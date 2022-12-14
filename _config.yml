@@ -35,7 +35,7 @@ logo:
 # # # # #
 
 # URL-stuff, don't forget the 'http...'-part
-url: "https://github.com/dmdwns2"
+url: "https://dmdwns2.github.io/"
 #baseurl: ""
 permalink: /:year/:month/:day/:title.html
 
