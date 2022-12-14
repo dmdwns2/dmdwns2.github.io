@@ -6,7 +6,7 @@ layout: pages
 ---
 
 ### Github 주소
-https://github.com/dmdwns2
+<https://github.com/dmdwns2>
 
 ### velog 주소
-https://velog.io/@dmdwns2
+<https://velog.io/@dmdwns2>
