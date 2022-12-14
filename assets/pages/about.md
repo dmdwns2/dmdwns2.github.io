@@ -6,6 +6,8 @@ happen to work on."
 layout: pages
 ---
 
+![author](/assets/images/author.png)
+
 ### 반가워요 🙋
 백엔드개발자 김응준입니다.
 
