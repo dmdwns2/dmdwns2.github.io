@@ -3,14 +3,14 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
+name:               "항상 맑으면 사막이 된다."
 
 author:
   facebook:         your-id
   youtubeUser:      your-id
   youtubeChannel:   your-id
   twitter:          your-id
-  github:           your-id
+  github:           dmdwns2
   stackoverflow:    your-id
   quora:            your-id
   linkedin:         your-id
@@ -23,8 +23,8 @@ author:
   email:            your-id@your-email.com
 
 copyright:
-  year:             2017
-  name:             Kiko
+  year:             2024
+  name:             김응준
 
 # Google-analytics
 google-analytics:
@@ -35,7 +35,7 @@ disqus:
   id:               "kiko-plus"
 
 # URL
-url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
+url:                "https://dmdwns2.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
 
