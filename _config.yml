@@ -27,7 +27,9 @@ defaults:
     values:
       layout: "post"
 
+# 포스트 안보이는 문제 해결
 timezone: Asia/Seoul
+future: true
 
 # Plugins
 gems:
