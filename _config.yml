@@ -1,11 +1,11 @@
 # Site settings
-title: dmdwns2의 저장소
+title: 개인 기록 저장소
 description: "이것저것 기록합니다."
-url: "http://www.dmdwns2.github.io/home"
+url: "http://dmdwns2.github.io/home"
 ogimage: "img/favicon.png"
 author:
-  name: "EungJun Kim"
-  email: "ssreki1@naver.com"
+  name: "dmdwns2"
+  email: ""
   url: "https://github.com/dmdwns2"
 
 
