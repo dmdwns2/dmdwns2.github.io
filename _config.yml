@@ -1,7 +1,7 @@
 # Site settings
 title: 개인 기록 저장소
 description: "이것저것 기록합니다."
-url: "http://dmdwns2.github.io/home"
+url: "http://dmdwns2.github.io/"
 ogimage: "img/favicon.png"
 author:
   name: "dmdwns2"
@@ -10,7 +10,7 @@ author:
 
 
 # Build settings
-baseurl: /home # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
