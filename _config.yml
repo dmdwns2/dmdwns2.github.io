@@ -1,93 +1,41 @@
-# # # # # # # # # # # # #
-#   K i k o - p l u s   #
-# # # # # # # # # # # # #
-
-# Basic
-name:               "머리를 대신 해줄 저장소"
-
+# Site settings
+title: dmdwns2의 저장소
+description: "이것저것 기록합니다."
+url: "http://www.dmdwns2.github.io/home"
+ogimage: "img/favicon.png"
 author:
-#  facebook:         your-id
-#  youtubeUser:      your-id
-#  youtubeChannel:   your-id
-#  twitter:          your-id
-  github:           dmdwns2
-# stackoverflow:    your-id
-#  quora:            your-id
-#  linkedin:         your-id
-#  pinterest:        your-id
-#  googlePlus:       your-id
-#  instagram:        your-id
-#  reddit:           your-id
-#  medium:           your-id
-#  tumblr:           your-id
-#  email:            your-id@your-email.com
-
-copyright:
-  year:             2024
-  name:             김응준
-
-# Google-analytics
-google-analytics:
-  id:               ""
-
-# Disqus
-disqus:
-  id:               "kiko-plus"
-
-# URL
-url:                "https://dmdwns2.github.io" # the base hostname & protocol for your site
-# url:                "http://localhost:4000" # use this url when you develop
-baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
+  name: "EungJun Kim"
+  email: "ssreki1@naver.com"
+  url: "https://github.com/dmdwns2"
 
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
-permalink:          /:year-:month-:day/:title/
+# Build settings
+baseurl: /home # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
 
-# Pagination
-paginate:           5
-paginate_path:      /page:num/
-
-# Markdown
-markdown:           kramdown
-kramdown:
-  input:            GFM
-
-# Navigation
-nav:
-  - name:           "About"
-    url:            "/about"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
-
-# Sass
-sass:
-  sass_dir:         _sass
-  style:            :compressed
-
-# Scopes
+# Default values
 defaults:
   -
     scope:
-      path:         ""
-      type:         "pages"
+      path: ""
+      type: "posts"
     values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
+      layout: "post"
 
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+# Plugins
 gems:
-#  - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-admin
+  - jekyll-sitemap
 
-exclude:            [vendor]
+# Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
