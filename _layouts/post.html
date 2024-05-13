@@ -3,7 +3,9 @@ layout: default
 ---
 <article id="post-page">
 	<div class="content">
-		{{ post.title }}
+		<span class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </span>
 		{{ content }}
 		
  	 </div>
