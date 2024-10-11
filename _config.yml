@@ -27,10 +27,13 @@ defaults:
       layout: post
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
+markdown: kramdown
+kramdown:
+  input: GFM
+  
 # Custom variables
 version: "1.0.0"
 
